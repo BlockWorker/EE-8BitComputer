@@ -253,12 +253,6 @@
 <text x="-15.621" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-12.065" y="-0.889" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="SUPPLY">
-<pad name="VCC" x="-1.27" y="0" drill="0.6" shape="octagon"/>
-<pad name="GND" x="1.27" y="0" drill="0.6" shape="octagon"/>
-<text x="-0.635" y="0.889" size="1.27" layer="21" rot="R90">VCC</text>
-<text x="1.905" y="0.889" size="1.27" layer="21" rot="R90">GND</text>
-</package>
 </packages>
 <symbols>
 <symbol name="U">

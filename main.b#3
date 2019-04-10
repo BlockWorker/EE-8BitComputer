@@ -14120,25 +14120,29 @@ Based on the following sources:
 <contactref element="DS900" pad="3" route="any" routetag="G$1.CAT"/>
 <contactref element="DS900" pad="8" route="any" routetag="G$1.CAT"/>
 <contactref element="U902" pad="4"/>
-<wire x1="157.48" y1="119.38" x2="110.49" y2="110.49" width="0" layer="19" extent="1-1"/>
+<wire x1="157.48" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="16"/>
+<wire x1="119.38" y1="119.38" x2="110.49" y2="110.49" width="0.1524" layer="16"/>
 </signal>
 <signal name="OUT_CAT_1">
 <contactref element="U902" pad="5"/>
 <contactref element="DS901" pad="3" route="any" routetag="G$1.CAT"/>
 <contactref element="DS901" pad="8" route="any" routetag="G$1.CAT"/>
-<wire x1="157.48" y1="116.84" x2="123.19" y2="110.49" width="0" layer="19" extent="1-1"/>
+<wire x1="157.48" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="16"/>
+<wire x1="129.54" y1="116.84" x2="123.19" y2="110.49" width="0.1524" layer="16"/>
 </signal>
 <signal name="OUT_CAT_2">
 <contactref element="U902" pad="6"/>
 <contactref element="DS902" pad="3" route="any" routetag="G$1.CAT"/>
 <contactref element="DS902" pad="8" route="any" routetag="G$1.CAT"/>
-<wire x1="135.89" y1="110.49" x2="157.48" y2="114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="157.48" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="16"/>
+<wire x1="139.7" y1="114.3" x2="135.89" y2="110.49" width="0.1524" layer="16"/>
 </signal>
 <signal name="OUT_CAT_3">
 <contactref element="U902" pad="7"/>
 <contactref element="DS903" pad="3" route="any" routetag="G$1.CAT"/>
 <contactref element="DS903" pad="8" route="any" routetag="G$1.CAT"/>
-<wire x1="148.59" y1="110.49" x2="157.48" y2="111.76" width="0" layer="19" extent="1-1"/>
+<wire x1="157.48" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="16"/>
+<wire x1="149.86" y1="111.76" x2="148.59" y2="110.49" width="0.1524" layer="16"/>
 </signal>
 <signal name="OUT_SEG_A">
 <contactref element="DS900" pad="7"/>

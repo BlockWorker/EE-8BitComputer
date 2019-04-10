@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -14920,27 +14920,63 @@ Based on the following sources:
 <signal name="OUT_SEG_D_INT">
 <contactref element="XU905" pad="15"/>
 <contactref element="RN900" pad="4"/>
-<wire x1="138.43" y1="105.41" x2="143.887" y2="102.201" width="0" layer="19" extent="1-1"/>
+<wire x1="138.43" y1="105.41" x2="138.43" y2="104.775" width="0.1524" layer="16"/>
+<wire x1="139.9032" y1="101.3714" x2="141.2494" y2="100.0252" width="0.1524" layer="16"/>
+<wire x1="141.2494" y1="100.0252" x2="142.9258" y2="100.0252" width="0.1524" layer="16"/>
+<wire x1="142.9258" y1="100.0252" x2="143.887" y2="100.9864" width="0.1524" layer="16"/>
+<wire x1="143.887" y1="100.9864" x2="143.887" y2="102.201" width="0.1524" layer="16"/>
+<wire x1="138.43" y1="104.775" x2="139.9032" y2="103.3018" width="0.1524" layer="16"/>
+<wire x1="139.9032" y1="103.3018" x2="139.9032" y2="101.3714" width="0.1524" layer="16"/>
 </signal>
 <signal name="OUT_SEG_E_INT">
 <contactref element="RN900" pad="5"/>
 <contactref element="XU905" pad="16"/>
-<wire x1="135.89" y1="105.41" x2="143.387" y2="102.201" width="0" layer="19" extent="1-1"/>
+<wire x1="135.89" y1="105.41" x2="135.89" y2="106.0958" width="0.1524" layer="16"/>
+<wire x1="138.7602" y1="106.8578" x2="140.1826" y2="105.4354" width="0.1524" layer="16"/>
+<wire x1="140.1826" y1="105.4354" x2="140.1826" y2="101.4871375" width="0.1524" layer="16"/>
+<wire x1="140.1826" y1="101.4871375" x2="141.3651375" y2="100.3046" width="0.1524" layer="16"/>
+<wire x1="141.3651375" y1="100.3046" x2="142.6830625" y2="100.3046" width="0.1524" layer="16"/>
+<wire x1="143.387" y1="101.0085375" x2="143.387" y2="102.201" width="0.1524" layer="16"/>
+<wire x1="135.89" y1="106.0958" x2="136.652" y2="106.8578" width="0.1524" layer="16"/>
+<wire x1="136.652" y1="106.8578" x2="138.7602" y2="106.8578" width="0.1524" layer="16"/>
+<wire x1="142.6830625" y1="100.3046" x2="143.387" y2="101.0085375" width="0.1524" layer="16"/>
 </signal>
 <signal name="OUT_SEG_F_INT">
 <contactref element="XU905" pad="17"/>
 <contactref element="RN900" pad="6"/>
-<wire x1="133.35" y1="105.41" x2="142.887" y2="102.201" width="0" layer="19" extent="1-1"/>
+<wire x1="133.35" y1="105.41" x2="133.35" y2="106.045" width="0.1524" layer="16"/>
+<wire x1="138.8759375" y1="107.1372" x2="140.462" y2="105.5511375" width="0.1524" layer="16"/>
+<wire x1="134.4422" y1="107.1372" x2="138.8759375" y2="107.1372" width="0.1524" layer="16"/>
+<wire x1="133.35" y1="106.045" x2="134.4422" y2="107.1372" width="0.1524" layer="16"/>
+<wire x1="140.462" y1="105.5511375" x2="140.462" y2="101.602875" width="0.1524" layer="16"/>
+<wire x1="141.480875" y1="100.584" x2="142.4686" y2="100.584" width="0.1524" layer="16"/>
+<wire x1="140.462" y1="101.602875" x2="141.480875" y2="100.584" width="0.1524" layer="16"/>
+<wire x1="142.4686" y1="100.584" x2="142.887" y2="101.0024" width="0.1524" layer="16"/>
+<wire x1="142.887" y1="101.0024" x2="142.887" y2="102.201" width="0.1524" layer="16"/>
 </signal>
 <signal name="OUT_SEG_G_INT">
 <contactref element="RN900" pad="7"/>
 <contactref element="XU905" pad="18"/>
-<wire x1="130.81" y1="105.41" x2="142.387" y2="102.201" width="0" layer="19" extent="1-1"/>
+<wire x1="130.81" y1="105.41" x2="130.81" y2="105.9942" width="0.1524" layer="16"/>
+<wire x1="130.81" y1="105.9942" x2="132.2324" y2="107.4166" width="0.1524" layer="16"/>
+<wire x1="138.991675" y1="107.4166" x2="140.7414" y2="105.666875" width="0.1524" layer="16"/>
+<wire x1="132.2324" y1="107.4166" x2="138.991675" y2="107.4166" width="0.1524" layer="16"/>
+<wire x1="140.7414" y1="105.666875" x2="140.7414" y2="101.7186125" width="0.1524" layer="16"/>
+<wire x1="140.7414" y1="101.7186125" x2="141.5966125" y2="100.8634" width="0.1524" layer="16"/>
+<wire x1="142.387" y1="101.0358" x2="142.387" y2="102.201" width="0.1524" layer="16"/>
+<wire x1="141.5966125" y1="100.8634" x2="142.2146" y2="100.8634" width="0.1524" layer="16"/>
+<wire x1="142.2146" y1="100.8634" x2="142.387" y2="101.0358" width="0.1524" layer="16"/>
 </signal>
 <signal name="OUT_SEG_DP_INT">
 <contactref element="XU905" pad="19"/>
 <contactref element="RN900" pad="8"/>
-<wire x1="128.27" y1="105.41" x2="141.887" y2="102.201" width="0" layer="19" extent="1-1"/>
+<wire x1="128.27" y1="105.41" x2="128.27" y2="106.045" width="0.1524" layer="16"/>
+<wire x1="128.27" y1="106.045" x2="129.921" y2="107.696" width="0.1524" layer="16"/>
+<wire x1="139.1074125" y1="107.696" x2="141.0208" y2="105.7826125" width="0.1524" layer="16"/>
+<wire x1="129.921" y1="107.696" x2="139.1074125" y2="107.696" width="0.1524" layer="16"/>
+<wire x1="141.887" y1="102.9436" x2="141.887" y2="102.201" width="0.1524" layer="16"/>
+<wire x1="141.0208" y1="105.7826125" x2="141.0208" y2="103.8098" width="0.1524" layer="16"/>
+<wire x1="141.0208" y1="103.8098" x2="141.887" y2="102.9436" width="0.1524" layer="16"/>
 </signal>
 <signal name="!RI">
 <contactref element="LED1129" pad="K"/>

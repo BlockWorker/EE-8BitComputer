@@ -667,7 +667,33 @@
 <gate name="G$2" symbol="PWRN" x="-48.26" y="0" addlevel="request"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="DIL24-6">
+<connects>
+<connect gate="G$1" pin="A0" pad="2"/>
+<connect gate="G$1" pin="A1" pad="3"/>
+<connect gate="G$1" pin="A2" pad="21"/>
+<connect gate="G$1" pin="A3" pad="22"/>
+<connect gate="G$1" pin="E" pad="23"/>
+<connect gate="G$1" pin="LE" pad="1"/>
+<connect gate="G$1" pin="Q0" pad="11"/>
+<connect gate="G$1" pin="Q1" pad="9"/>
+<connect gate="G$1" pin="Q10" pad="20"/>
+<connect gate="G$1" pin="Q11" pad="19"/>
+<connect gate="G$1" pin="Q12" pad="14"/>
+<connect gate="G$1" pin="Q13" pad="13"/>
+<connect gate="G$1" pin="Q14" pad="16"/>
+<connect gate="G$1" pin="Q15" pad="15"/>
+<connect gate="G$1" pin="Q2" pad="10"/>
+<connect gate="G$1" pin="Q3" pad="8"/>
+<connect gate="G$1" pin="Q4" pad="7"/>
+<connect gate="G$1" pin="Q5" pad="6"/>
+<connect gate="G$1" pin="Q6" pad="5"/>
+<connect gate="G$1" pin="Q7" pad="4"/>
+<connect gate="G$1" pin="Q8" pad="18"/>
+<connect gate="G$1" pin="Q9" pad="17"/>
+<connect gate="G$2" pin="GND" pad="12"/>
+<connect gate="G$2" pin="VCC" pad="24"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

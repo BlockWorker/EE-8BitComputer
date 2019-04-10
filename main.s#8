@@ -17398,9 +17398,6 @@ Source: DCJ0202.pdf</description>
 <part name="C1107" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1µF"/>
 <part name="C1108" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1µF"/>
 <part name="C1109" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1µF"/>
-<part name="C1110" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1µF"/>
-<part name="C1111" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1µF"/>
-<part name="C1112" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="0.1µF"/>
 <part name="LED1149" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="white"/>
 <part name="LED1150" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="white"/>
 <part name="LED1151" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="white"/>
@@ -29376,18 +29373,6 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <attribute name="NAME" x="156.464" y="155.321" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.464" y="150.241" size="1.778" layer="96"/>
 </instance>
-<instance part="C1110" gate="G$1" x="165.1" y="154.94" smashed="yes">
-<attribute name="NAME" x="166.624" y="155.321" size="1.778" layer="95"/>
-<attribute name="VALUE" x="166.624" y="150.241" size="1.778" layer="96"/>
-</instance>
-<instance part="C1111" gate="G$1" x="175.26" y="154.94" smashed="yes">
-<attribute name="NAME" x="176.784" y="155.321" size="1.778" layer="95"/>
-<attribute name="VALUE" x="176.784" y="150.241" size="1.778" layer="96"/>
-</instance>
-<instance part="C1112" gate="G$1" x="185.42" y="154.94" smashed="yes">
-<attribute name="NAME" x="186.944" y="155.321" size="1.778" layer="95"/>
-<attribute name="VALUE" x="186.944" y="150.241" size="1.778" layer="96"/>
-</instance>
 <instance part="LED1149" gate="G$1" x="284.48" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="289.052" y="46.736" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="289.052" y="48.895" size="1.778" layer="96" rot="R180"/>
@@ -29460,7 +29445,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <attribute name="NAME" x="319.532" y="-26.924" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="319.532" y="-24.765" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUP1100" gate="G$1" x="200.66" y="154.94" smashed="yes"/>
+<instance part="SUP1100" gate="G$1" x="170.18" y="154.94" smashed="yes"/>
 <instance part="U1106" gate="A" x="347.98" y="132.08" smashed="yes">
 <attribute name="NAME" x="340.36" y="153.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="340.36" y="106.68" size="1.778" layer="96"/>
@@ -29539,8 +29524,8 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </segment>
 <segment>
 <pinref part="SUP1100" gate="G$1" pin="VCC"/>
-<wire x1="198.12" y1="157.48" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="157.48" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="157.48" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="157.48" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="C1100" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="157.48" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="C1105" gate="G$1" pin="1"/>
@@ -29581,20 +29566,8 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <wire x1="154.94" y1="157.48" x2="154.94" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
 <junction x="144.78" y="160.02"/>
-<pinref part="C1110" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="157.48" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="160.02" x2="154.94" y2="160.02" width="0.1524" layer="91"/>
 <junction x="154.94" y="160.02"/>
-<pinref part="C1111" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="157.48" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="160.02" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
-<junction x="165.1" y="160.02"/>
-<junction x="175.26" y="160.02"/>
-<pinref part="C1112" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="160.02" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="157.48" x2="185.42" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="160.02" x2="185.42" y2="160.02" width="0.1524" layer="91"/>
-<junction x="185.42" y="160.02"/>
+<wire x1="165.1" y1="160.02" x2="154.94" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RN1102" gate="G$1" pin="R1_2"/>
@@ -29934,8 +29907,8 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </segment>
 <segment>
 <pinref part="SUP1100" gate="G$1" pin="GND"/>
-<wire x1="198.12" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="152.4" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="152.4" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C1100" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="149.86" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C1105" gate="G$1" pin="2"/>
@@ -29976,20 +29949,8 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <wire x1="154.94" y1="149.86" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
 <junction x="144.78" y="147.32"/>
-<pinref part="C1110" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="149.86" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="147.32" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 <junction x="154.94" y="147.32"/>
-<pinref part="C1111" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="149.86" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="147.32" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
-<junction x="165.1" y="147.32"/>
-<pinref part="C1112" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="149.86" x2="185.42" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="147.32" x2="185.42" y2="147.32" width="0.1524" layer="91"/>
-<junction x="175.26" y="147.32"/>
-<wire x1="195.58" y1="147.32" x2="185.42" y2="147.32" width="0.1524" layer="91"/>
-<junction x="185.42" y="147.32"/>
+<wire x1="165.1" y1="147.32" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1106" gate="A" pin="G1"/>

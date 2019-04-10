@@ -719,11 +719,7 @@
 <gate name="G$1" symbol="SUPPLY" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SUPPLY">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>

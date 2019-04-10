@@ -14120,29 +14120,25 @@ Based on the following sources:
 <contactref element="DS900" pad="3" route="any" routetag="G$1.CAT"/>
 <contactref element="DS900" pad="8" route="any" routetag="G$1.CAT"/>
 <contactref element="U902" pad="4"/>
-<wire x1="157.48" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="16"/>
-<wire x1="119.38" y1="119.38" x2="110.49" y2="110.49" width="0.1524" layer="16"/>
+<wire x1="157.48" y1="119.38" x2="110.49" y2="110.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT_CAT_1">
 <contactref element="U902" pad="5"/>
 <contactref element="DS901" pad="3" route="any" routetag="G$1.CAT"/>
 <contactref element="DS901" pad="8" route="any" routetag="G$1.CAT"/>
-<wire x1="157.48" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="16"/>
-<wire x1="129.54" y1="116.84" x2="123.19" y2="110.49" width="0.1524" layer="16"/>
+<wire x1="157.48" y1="116.84" x2="123.19" y2="110.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT_CAT_2">
 <contactref element="U902" pad="6"/>
 <contactref element="DS902" pad="3" route="any" routetag="G$1.CAT"/>
 <contactref element="DS902" pad="8" route="any" routetag="G$1.CAT"/>
-<wire x1="157.48" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="16"/>
-<wire x1="139.7" y1="114.3" x2="135.89" y2="110.49" width="0.1524" layer="16"/>
+<wire x1="157.48" y1="114.3" x2="135.89" y2="110.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT_CAT_3">
 <contactref element="U902" pad="7"/>
 <contactref element="DS903" pad="3" route="any" routetag="G$1.CAT"/>
 <contactref element="DS903" pad="8" route="any" routetag="G$1.CAT"/>
-<wire x1="157.48" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="16"/>
-<wire x1="149.86" y1="111.76" x2="148.59" y2="110.49" width="0.1524" layer="16"/>
+<wire x1="157.48" y1="111.76" x2="148.59" y2="110.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT_SEG_A">
 <contactref element="DS900" pad="7"/>
@@ -14909,21 +14905,20 @@ Based on the following sources:
 <signal name="OUT_SEG_A_INT">
 <contactref element="XU905" pad="11"/>
 <contactref element="RN900" pad="1"/>
-<wire x1="130.81" y1="90.17" x2="130.81" y2="89.535" width="0.1524" layer="16"/>
-<wire x1="130.81" y1="89.535" x2="132.1816" y2="88.1634" width="0.1524" layer="16"/>
+<wire x1="130.81" y1="90.17" x2="130.81" y2="89.5096" width="0.1524" layer="16"/>
+<wire x1="130.81" y1="89.5096" x2="132.1562" y2="88.1634" width="0.1524" layer="16"/>
 <wire x1="139.042475" y1="88.1634" x2="140.0556" y2="89.176525" width="0.1524" layer="16"/>
 <wire x1="140.0556" y1="89.176525" x2="140.0556" y2="95.631" width="0.1524" layer="16"/>
-<wire x1="132.1816" y1="88.1634" x2="139.042475" y2="88.1634" width="0.1524" layer="16"/>
+<wire x1="132.1562" y1="88.1634" x2="139.042475" y2="88.1634" width="0.1524" layer="16"/>
 <wire x1="145.387" y1="102.201" x2="145.387" y2="100.9624" width="0.1524" layer="16"/>
 <wire x1="145.387" y1="100.9624" x2="140.0556" y2="95.631" width="0.1524" layer="16"/>
 </signal>
 <signal name="OUT_SEG_B_INT">
 <contactref element="XU905" pad="12"/>
 <contactref element="RN900" pad="2"/>
-<wire x1="134.493" y1="88.4428" x2="133.35" y2="89.5858" width="0.1524" layer="16"/>
-<wire x1="133.35" y1="90.17" x2="133.35" y2="89.5858" width="0.1524" layer="16"/>
+<wire x1="133.35" y1="90.17" x2="135.0772" y2="88.4428" width="0.1524" layer="16"/>
 <wire x1="138.9267375" y1="88.4428" x2="139.7762" y2="89.2922625" width="0.1524" layer="16"/>
-<wire x1="134.493" y1="88.4428" x2="138.9267375" y2="88.4428" width="0.1524" layer="16"/>
+<wire x1="135.0772" y1="88.4428" x2="138.9267375" y2="88.4428" width="0.1524" layer="16"/>
 <wire x1="144.887" y1="100.945" x2="144.887" y2="102.201" width="0.1524" layer="16"/>
 <wire x1="139.7762" y1="89.2922625" x2="139.7762" y2="95.8342" width="0.1524" layer="16"/>
 <wire x1="139.7762" y1="95.8342" x2="144.887" y2="100.945" width="0.1524" layer="16"/>
