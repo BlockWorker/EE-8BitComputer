@@ -17435,8 +17435,8 @@ Source: DCJ0202.pdf</description>
 <part name="R211" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10kΩ"/>
 <part name="U901" library="8BitCpuParts" deviceset="74LS161N" device=""/>
 <part name="RN900" library="SamacSys_Parts" deviceset="CAY16-102J8LF" device="" value="8x220Ω?"/>
-<part name="U1106" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*154" device="DW" package3d_urn="urn:adsk.eagle:package:2925/1"/>
-<part name="U1107" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*154" device="DW" package3d_urn="urn:adsk.eagle:package:2925/1"/>
+<part name="U1106" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*154" device="DW" package3d_urn="urn:adsk.eagle:package:2925/1" value="74HCT154DW"/>
+<part name="U1107" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*154" device="DW" package3d_urn="urn:adsk.eagle:package:2925/1" value="74HCT154DW"/>
 </parts>
 <sheets>
 <sheet>

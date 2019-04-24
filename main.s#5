@@ -25382,9 +25382,9 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <segment>
 <pinref part="LED707" gate="G$1" pin="C"/>
 <wire x1="127" y1="81.28" x2="127" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="127" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="RN700" gate="G$1" pin="R8_1"/>
-<wire x1="119.38" y1="91.44" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="127" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="RN700" gate="G$1" pin="R5_1"/>
+<wire x1="111.76" y1="91.44" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED700_GND" class="0">
@@ -25426,26 +25426,26 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <net name="LED704_GND" class="0">
 <segment>
 <pinref part="LED704" gate="G$1" pin="C"/>
-<pinref part="RN700" gate="G$1" pin="R5_1"/>
-<wire x1="111.76" y1="71.12" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="71.12" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="RN700" gate="G$1" pin="R8_1"/>
+<wire x1="119.38" y1="83.82" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED706_GND" class="0">
 <segment>
 <pinref part="LED706" gate="G$1" pin="C"/>
 <wire x1="121.92" y1="71.12" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="RN700" gate="G$1" pin="R7_1"/>
-<wire x1="116.84" y1="88.9" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="RN700" gate="G$1" pin="R6_1"/>
+<wire x1="114.3" y1="88.9" x2="114.3" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED705_GND" class="0">
 <segment>
 <pinref part="LED705" gate="G$1" pin="C"/>
-<wire x1="116.84" y1="81.28" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="RN700" gate="G$1" pin="R6_1"/>
-<wire x1="114.3" y1="86.36" x2="114.3" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="RN700" gate="G$1" pin="R7_1"/>
+<wire x1="116.84" y1="81.28" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ALU_SUM_3" class="0">

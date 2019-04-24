@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -29983,10 +29983,6 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <wire x1="48.26" y1="0" x2="40.64" y2="0" width="0.1524" layer="91"/>
 <junction x="40.64" y="0"/>
 <label x="40.64" y="-22.86" size="1.778" layer="255"/>
-<pinref part="U1102" gate="G$1" pin="CLK"/>
-<wire x1="48.26" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="86.36" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
-<junction x="40.64" y="38.1"/>
 </segment>
 </net>
 <net name="!II" class="0">
@@ -31366,6 +31362,13 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <pinref part="U1108" gate="D" pin="O"/>
 <wire x1="401.32" y1="15.24" x2="401.32" y2="12.7" width="0.1524" layer="91"/>
 <label x="401.32" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!CLK" class="0">
+<segment>
+<pinref part="U1102" gate="G$1" pin="CLK"/>
+<wire x1="48.26" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<label x="38.1" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

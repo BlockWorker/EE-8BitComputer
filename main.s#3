@@ -25855,11 +25855,11 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <plain>
 </plain>
 <instances>
-<instance part="U800" gate="A" x="55.88" y="78.74" smashed="yes">
+<instance part="U800" gate="B" x="55.88" y="78.74" smashed="yes">
 <attribute name="NAME" x="58.42" y="81.915" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.42" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="U800" gate="B" x="55.88" y="66.04" smashed="yes">
+<instance part="U800" gate="E" x="55.88" y="66.04" smashed="yes">
 <attribute name="NAME" x="58.42" y="69.215" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.42" y="60.96" size="1.778" layer="96"/>
 </instance>
@@ -25871,19 +25871,19 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <attribute name="NAME" x="58.42" y="43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.42" y="35.56" size="1.778" layer="96"/>
 </instance>
-<instance part="U800" gate="E" x="55.88" y="27.94" smashed="yes">
+<instance part="U801" gate="B" x="55.88" y="27.94" smashed="yes">
 <attribute name="NAME" x="58.42" y="31.115" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.42" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="U800" gate="F" x="55.88" y="15.24" smashed="yes">
+<instance part="U801" gate="E" x="55.88" y="15.24" smashed="yes">
 <attribute name="NAME" x="58.42" y="18.415" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.42" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="U801" gate="A" x="55.88" y="2.54" smashed="yes">
+<instance part="U801" gate="C" x="55.88" y="2.54" smashed="yes">
 <attribute name="NAME" x="58.42" y="5.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.42" y="-2.54" size="1.778" layer="96"/>
 </instance>
-<instance part="U801" gate="B" x="55.88" y="-10.16" smashed="yes">
+<instance part="U801" gate="D" x="55.88" y="-10.16" smashed="yes">
 <attribute name="NAME" x="58.42" y="-6.985" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.42" y="-15.24" size="1.778" layer="96"/>
 </instance>
@@ -26338,7 +26338,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="REG_A_7" class="0">
 <segment>
-<pinref part="U800" gate="A" pin="I"/>
+<pinref part="U800" gate="B" pin="I"/>
 <wire x1="45.72" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26356,7 +26356,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="REG_A_6" class="0">
 <segment>
-<pinref part="U800" gate="B" pin="I"/>
+<pinref part="U800" gate="E" pin="I"/>
 <wire x1="45.72" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26410,7 +26410,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="REG_A_3" class="0">
 <segment>
-<pinref part="U800" gate="E" pin="I"/>
+<pinref part="U801" gate="B" pin="I"/>
 <wire x1="45.72" y1="27.94" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26428,7 +26428,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="REG_A_2" class="0">
 <segment>
-<pinref part="U800" gate="F" pin="I"/>
+<pinref part="U801" gate="E" pin="I"/>
 <wire x1="45.72" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26446,7 +26446,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="REG_A_1" class="0">
 <segment>
-<pinref part="U801" gate="A" pin="I"/>
+<pinref part="U801" gate="C" pin="I"/>
 <wire x1="45.72" y1="2.54" x2="40.64" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26464,7 +26464,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="REG_A_0" class="0">
 <segment>
-<pinref part="U801" gate="B" pin="I"/>
+<pinref part="U801" gate="D" pin="I"/>
 <wire x1="45.72" y1="-10.16" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26482,7 +26482,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="BITWISE_NOT_7" class="0">
 <segment>
-<pinref part="U800" gate="A" pin="O"/>
+<pinref part="U800" gate="B" pin="O"/>
 <wire x1="66.04" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26492,7 +26492,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="BITWISE_NOT_6" class="0">
 <segment>
-<pinref part="U800" gate="B" pin="O"/>
+<pinref part="U800" gate="E" pin="O"/>
 <wire x1="66.04" y1="66.04" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26522,7 +26522,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="BITWISE_NOT_3" class="0">
 <segment>
-<pinref part="U800" gate="E" pin="O"/>
+<pinref part="U801" gate="B" pin="O"/>
 <wire x1="66.04" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26532,7 +26532,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="BITWISE_NOT_2" class="0">
 <segment>
-<pinref part="U800" gate="F" pin="O"/>
+<pinref part="U801" gate="E" pin="O"/>
 <wire x1="66.04" y1="15.24" x2="73.66" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26542,7 +26542,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="BITWISE_NOT_1" class="0">
 <segment>
-<pinref part="U801" gate="A" pin="O"/>
+<pinref part="U801" gate="C" pin="O"/>
 <wire x1="66.04" y1="2.54" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26552,7 +26552,7 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 </net>
 <net name="BITWISE_NOT_0" class="0">
 <segment>
-<pinref part="U801" gate="B" pin="O"/>
+<pinref part="U801" gate="D" pin="O"/>
 <wire x1="66.04" y1="-10.16" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
