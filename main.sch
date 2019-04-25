@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21015,36 +21015,36 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <segment>
 <pinref part="LED225" gate="G$1" pin="C"/>
 <wire x1="-195.58" y1="-58.42" x2="-215.9" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="-215.9" y1="-58.42" x2="-215.9" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="RN206" gate="G$1" pin="R1_1"/>
-<wire x1="-215.9" y1="-68.58" x2="-218.44" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="-58.42" x2="-215.9" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="RN206" gate="G$1" pin="R4_1"/>
+<wire x1="-215.9" y1="-76.2" x2="-218.44" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED226_GND" class="0">
 <segment>
 <pinref part="LED226" gate="G$1" pin="C"/>
 <wire x1="-205.74" y1="-63.5" x2="-213.36" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="-213.36" y1="-63.5" x2="-213.36" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="RN206" gate="G$1" pin="R2_1"/>
-<wire x1="-213.36" y1="-71.12" x2="-218.44" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="-213.36" y1="-63.5" x2="-213.36" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="RN206" gate="G$1" pin="R3_1"/>
+<wire x1="-213.36" y1="-73.66" x2="-218.44" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED227_GND" class="0">
 <segment>
 <pinref part="LED227" gate="G$1" pin="C"/>
-<wire x1="-195.58" y1="-68.58" x2="-210.82" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="-210.82" y1="-68.58" x2="-210.82" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="RN206" gate="G$1" pin="R3_1"/>
-<wire x1="-210.82" y1="-73.66" x2="-218.44" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="-68.58" x2="-208.28" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-208.28" y1="-68.58" x2="-208.28" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="RN206" gate="G$1" pin="R2_1"/>
+<wire x1="-208.28" y1="-71.12" x2="-218.44" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED228_GND" class="0">
 <segment>
 <pinref part="LED228" gate="G$1" pin="C"/>
-<wire x1="-205.74" y1="-73.66" x2="-208.28" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="-73.66" x2="-208.28" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="RN206" gate="G$1" pin="R4_1"/>
-<wire x1="-208.28" y1="-76.2" x2="-218.44" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="-73.66" x2="-210.82" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-210.82" y1="-73.66" x2="-210.82" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="RN206" gate="G$1" pin="R1_1"/>
+<wire x1="-210.82" y1="-68.58" x2="-218.44" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED229_GND" class="0">
