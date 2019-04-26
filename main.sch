@@ -21099,47 +21099,29 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <wire x1="-210.82" y1="-114.3" x2="-218.44" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED236_GND" class="0">
-<segment>
-<pinref part="LED236" gate="G$1" pin="C"/>
-<wire x1="-205.74" y1="-114.3" x2="-208.28" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="-114.3" x2="-208.28" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="RN207" gate="G$1" pin="R4_1"/>
-<wire x1="-208.28" y1="-116.84" x2="-218.44" y2="-116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LED237_GND" class="0">
-<segment>
-<pinref part="LED237" gate="G$1" pin="C"/>
-<pinref part="RN207" gate="G$1" pin="R5_1"/>
-<wire x1="-195.58" y1="-119.38" x2="-218.44" y2="-119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LED239_GND" class="0">
 <segment>
 <pinref part="LED239" gate="G$1" pin="C"/>
 <wire x1="-195.58" y1="-129.54" x2="-213.36" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="-213.36" y1="-129.54" x2="-213.36" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="RN207" gate="G$1" pin="R7_1"/>
-<wire x1="-213.36" y1="-124.46" x2="-218.44" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="-213.36" y1="-129.54" x2="-213.36" y2="-121.92" width="0.1524" layer="91"/>
+<pinref part="RN207" gate="G$1" pin="R6_1"/>
+<wire x1="-213.36" y1="-121.92" x2="-218.44" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED238_GND" class="0">
 <segment>
 <pinref part="LED238" gate="G$1" pin="C"/>
-<wire x1="-205.74" y1="-124.46" x2="-210.82" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="-210.82" y1="-124.46" x2="-210.82" y2="-121.92" width="0.1524" layer="91"/>
-<pinref part="RN207" gate="G$1" pin="R6_1"/>
-<wire x1="-210.82" y1="-121.92" x2="-218.44" y2="-121.92" width="0.1524" layer="91"/>
+<pinref part="RN207" gate="G$1" pin="R7_1"/>
+<wire x1="-205.74" y1="-124.46" x2="-218.44" y2="-124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED240_GND" class="0">
 <segment>
-<pinref part="RN207" gate="G$1" pin="R8_1"/>
-<wire x1="-218.44" y1="-127" x2="-215.9" y2="-127" width="0.1524" layer="91"/>
 <pinref part="LED240" gate="G$1" pin="C"/>
-<wire x1="-215.9" y1="-127" x2="-215.9" y2="-134.62" width="0.1524" layer="91"/>
 <wire x1="-215.9" y1="-134.62" x2="-205.74" y2="-134.62" width="0.1524" layer="91"/>
+<pinref part="RN207" gate="G$1" pin="R5_1"/>
+<wire x1="-218.44" y1="-119.38" x2="-215.9" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="-119.38" x2="-215.9" y2="-134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!ZHO" class="0">
@@ -21414,6 +21396,24 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <junction x="2.54" y="-48.26"/>
 <label x="2.54" y="-55.88" size="1.778" layer="255"/>
 <wire x1="2.54" y1="-48.26" x2="2.54" y2="-53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED236_GND" class="0">
+<segment>
+<pinref part="LED236" gate="G$1" pin="C"/>
+<wire x1="-205.74" y1="-114.3" x2="-208.28" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="-208.28" y1="-114.3" x2="-208.28" y2="-116.84" width="0.1524" layer="91"/>
+<pinref part="RN207" gate="G$1" pin="R4_1"/>
+<wire x1="-208.28" y1="-116.84" x2="-218.44" y2="-116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED237_GND" class="0">
+<segment>
+<pinref part="LED237" gate="G$1" pin="C"/>
+<wire x1="-195.58" y1="-119.38" x2="-210.82" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="-210.82" y1="-119.38" x2="-210.82" y2="-127" width="0.1524" layer="91"/>
+<pinref part="RN207" gate="G$1" pin="R8_1"/>
+<wire x1="-210.82" y1="-127" x2="-218.44" y2="-127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -28450,9 +28450,9 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <segment>
 <pinref part="LED1007" gate="G$1" pin="C"/>
 <wire x1="55.88" y1="104.14" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="114.3" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="RN1000" gate="G$1" pin="R8_1"/>
-<wire x1="48.26" y1="114.3" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="RN1000" gate="G$1" pin="R5_1"/>
+<wire x1="40.64" y1="114.3" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1000_GND" class="0">
@@ -28491,38 +28491,29 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <wire x1="38.1" y1="106.68" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED1004_GND" class="0">
-<segment>
-<pinref part="LED1004" gate="G$1" pin="C"/>
-<pinref part="RN1000" gate="G$1" pin="R5_1"/>
-<wire x1="40.64" y1="93.98" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LED1006_GND" class="0">
 <segment>
 <pinref part="LED1006" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="93.98" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="RN1000" gate="G$1" pin="R7_1"/>
-<wire x1="45.72" y1="111.76" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="111.76" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="RN1000" gate="G$1" pin="R6_1"/>
+<wire x1="43.18" y1="111.76" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1005_GND" class="0">
 <segment>
 <pinref part="LED1005" gate="G$1" pin="C"/>
-<wire x1="45.72" y1="104.14" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="RN1000" gate="G$1" pin="R6_1"/>
-<wire x1="43.18" y1="109.22" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="RN1000" gate="G$1" pin="R7_1"/>
+<wire x1="45.72" y1="104.14" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1015_GND" class="0">
 <segment>
 <pinref part="LED1015" gate="G$1" pin="C"/>
 <wire x1="55.88" y1="7.62" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="RN1001" gate="G$1" pin="R8_1"/>
-<wire x1="48.26" y1="17.78" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="RN1001" gate="G$1" pin="R5_1"/>
+<wire x1="40.64" y1="17.78" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1008_GND" class="0">
@@ -28561,29 +28552,20 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <wire x1="38.1" y1="10.16" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED1012_GND" class="0">
-<segment>
-<pinref part="LED1012" gate="G$1" pin="C"/>
-<pinref part="RN1001" gate="G$1" pin="R5_1"/>
-<wire x1="40.64" y1="-2.54" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LED1014_GND" class="0">
 <segment>
 <pinref part="LED1014" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="-2.54" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="RN1001" gate="G$1" pin="R7_1"/>
-<wire x1="45.72" y1="15.24" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="RN1001" gate="G$1" pin="R6_1"/>
+<wire x1="43.18" y1="15.24" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1013_GND" class="0">
 <segment>
 <pinref part="LED1013" gate="G$1" pin="C"/>
-<wire x1="45.72" y1="7.62" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="RN1001" gate="G$1" pin="R6_1"/>
-<wire x1="43.18" y1="12.7" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="RN1001" gate="G$1" pin="R7_1"/>
+<wire x1="45.72" y1="20.32" x2="45.72" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -29030,6 +29012,24 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <pinref part="U1005" gate="A" pin="G"/>
 <wire x1="73.66" y1="-33.02" x2="71.12" y2="-33.02" width="0.1524" layer="91"/>
 <label x="66.04" y="-33.02" size="1.778" layer="255"/>
+</segment>
+</net>
+<net name="LED1004_GND" class="0">
+<segment>
+<pinref part="LED1004" gate="G$1" pin="C"/>
+<wire x1="40.64" y1="93.98" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="109.22" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="RN1000" gate="G$1" pin="R8_1"/>
+<wire x1="48.26" y1="109.22" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED1012_GND" class="0">
+<segment>
+<pinref part="LED1012" gate="G$1" pin="C"/>
+<wire x1="40.64" y1="-2.54" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="12.7" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="RN1001" gate="G$1" pin="R8_1"/>
+<wire x1="48.26" y1="12.7" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
