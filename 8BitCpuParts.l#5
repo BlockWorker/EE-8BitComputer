@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -305,6 +305,17 @@
 <wire x1="-1.27" y1="-8.89" x2="-0.762" y2="-9.398" width="0.1524" layer="21"/>
 <text x="-0.508" y="-7.62" size="1.524" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="2.032" y="-7.62" size="1.524" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="NK236*H">
+<pad name="C" x="0" y="0" drill="1" shape="long"/>
+<pad name="1" x="0" y="2.54" drill="1" shape="long"/>
+<pad name="2" x="0" y="-2.54" drill="1" shape="long"/>
+<text x="3.429" y="-3.302" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.334" y="-3.302" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="0.7" y1="5" x2="0.7" y2="-5" width="0.127" layer="51"/>
+<wire x1="0.7" y1="-5" x2="7.2" y2="-5" width="0.127" layer="21"/>
+<wire x1="7.2" y1="-5" x2="7.2" y2="5" width="0.127" layer="51"/>
+<wire x1="7.2" y1="5" x2="0.7" y2="5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -861,7 +872,21 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CAY16-102J8LF
 <gate name="G$1" symbol="HEADER-2X6" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="90152-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
