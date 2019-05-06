@@ -24129,11 +24129,11 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <wire x1="53.34" y1="27.94" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!INPUT" class="0">
+<net name="ANY_INPUT" class="0">
 <segment>
 <pinref part="J400" gate="G$1" pin="4"/>
 <wire x1="40.64" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<label x="43.18" y="48.006" size="1.778" layer="95"/>
+<label x="43.18" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -31730,6 +31730,14 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <wire x1="259.08" y1="137.16" x2="259.08" y2="127" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="127" x2="256.54" y2="127" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="127" x2="256.54" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ANY_INPUT" class="0">
+<segment>
+<pinref part="U1106" gate="A" pin="0"/>
+<wire x1="360.68" y1="149.86" x2="363.22" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="149.86" x2="363.22" y2="154.94" width="0.1524" layer="91"/>
+<label x="363.22" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

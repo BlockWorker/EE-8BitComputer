@@ -14190,17 +14190,6 @@ reflow soldering</description>
 <pad name="13" x="-3.81" y="6.35" drill="0.9" shape="octagon"/>
 <pad name="14" x="3.81" y="6.35" drill="0.9" shape="octagon"/>
 </package>
-<package name="NK236*H">
-<pad name="C" x="0" y="0" drill="1" shape="long"/>
-<pad name="1" x="0" y="2.54" drill="1" shape="long"/>
-<pad name="2" x="0" y="-2.54" drill="1" shape="long"/>
-<text x="3.556" y="-3.937" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.334" y="-3.937" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<wire x1="0.7" y1="5" x2="0.7" y2="-5" width="0.127" layer="51"/>
-<wire x1="0.7" y1="-5" x2="7.2" y2="-5" width="0.127" layer="21"/>
-<wire x1="7.2" y1="-5" x2="7.2" y2="5" width="0.127" layer="51"/>
-<wire x1="7.2" y1="5" x2="0.7" y2="5" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="U">
@@ -14705,23 +14694,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CAY16-102J8LF
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NK236*H">
-<gates>
-<gate name="G$1" symbol="U" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="NK236*H">
-<connects>
-<connect gate="G$1" pin="O" pad="1"/>
-<connect gate="G$1" pin="P" pad="C"/>
-<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17532,7 +17504,6 @@ Source: DCJ0202.pdf</description>
 <part name="Q401" library="ExtraParts" deviceset="SOT23-N-MOSFET" device="" value="NMOS"/>
 <part name="R403" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10kΩ"/>
 <part name="Q402" library="ExtraParts" deviceset="SOT23-N-MOSFET" device="" value="NMOS"/>
-<part name="S402" library="8BitCpuParts" deviceset="NK236*H" device=""/>
 <part name="LED401" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="R404" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1kΩ"/>
 <part name="U709" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*153" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="LS"/>
@@ -23591,17 +23562,13 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <attribute name="VALUE" x="54.61" y="-5.08" size="1.778" layer="96"/>
 <attribute name="NAME" x="54.61" y="-2.54" size="1.778" layer="95"/>
 </instance>
-<instance part="S402" gate="G$1" x="33.02" y="-7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.56" y="-2.54" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="35.56" y="0" size="1.778" layer="96" rot="R180"/>
+<instance part="LED401" gate="G$1" x="40.64" y="-7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.688" y="-6.096" size="1.778" layer="95"/>
+<attribute name="VALUE" x="45.212" y="-1.905" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED401" gate="G$1" x="40.64" y="2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.688" y="4.064" size="1.778" layer="95"/>
-<attribute name="VALUE" x="45.212" y="8.255" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R404" gate="G$1" x="30.48" y="2.54" smashed="yes">
-<attribute name="NAME" x="24.384" y="4.0386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="31.75" y="4.064" size="1.778" layer="96"/>
+<instance part="R404" gate="G$1" x="30.48" y="-7.62" smashed="yes">
+<attribute name="NAME" x="24.384" y="-6.1214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.75" y="-6.096" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23705,14 +23672,9 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <label x="45.72" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="S402" gate="G$1" pin="O"/>
-<wire x1="27.94" y1="-10.16" x2="25.4" y2="-10.16" width="0.1524" layer="91"/>
-<label x="20.32" y="-10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R404" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="2.54" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
-<label x="17.78" y="2.54" size="1.778" layer="95"/>
+<wire x1="25.4" y1="-7.62" x2="22.86" y2="-7.62" width="0.1524" layer="91"/>
+<label x="17.78" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -23770,11 +23732,6 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <wire x1="68.58" y1="-10.16" x2="68.58" y2="-12.7" width="0.1524" layer="91"/>
 <label x="68.58" y="-12.7" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="S402" gate="G$1" pin="S"/>
-<wire x1="27.94" y1="-5.08" x2="25.4" y2="-5.08" width="0.1524" layer="91"/>
-<label x="20.32" y="-5.08" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="INPUT_7" class="0">
 <segment>
@@ -23786,11 +23743,6 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <wire x1="68.58" y1="68.58" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
 <junction x="68.58" y="60.96"/>
 <label x="91.44" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J400" gate="G$1" pin="12"/>
-<wire x1="40.64" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<label x="43.18" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J400" gate="G$1" pin="14"/>
@@ -23810,9 +23762,9 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <label x="91.44" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J400" gate="G$1" pin="10"/>
-<wire x1="40.64" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<label x="43.18" y="55.88" size="1.778" layer="95"/>
+<pinref part="J400" gate="G$1" pin="12"/>
+<wire x1="40.64" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<label x="43.18" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INPUT_5" class="0">
@@ -23827,9 +23779,9 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <label x="91.44" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J400" gate="G$1" pin="8"/>
-<wire x1="40.64" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
-<label x="43.18" y="53.34" size="1.778" layer="95"/>
+<pinref part="J400" gate="G$1" pin="10"/>
+<wire x1="40.64" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<label x="43.18" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INPUT_4" class="0">
@@ -23844,9 +23796,9 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <label x="91.44" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J400" gate="G$1" pin="6"/>
-<wire x1="40.64" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="43.18" y="50.8" size="1.778" layer="95"/>
+<pinref part="J400" gate="G$1" pin="8"/>
+<wire x1="40.64" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
+<label x="43.18" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INPUT_3" class="0">
@@ -23990,9 +23942,9 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <junction x="-68.58" y="30.48"/>
 </segment>
 <segment>
-<pinref part="J400" gate="G$1" pin="4"/>
-<wire x1="40.64" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<label x="43.18" y="48.26" size="1.778" layer="95"/>
+<pinref part="J400" gate="G$1" pin="6"/>
+<wire x1="40.64" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<label x="43.18" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MAINBUS_7" class="0">
@@ -24184,13 +24136,8 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <net name="INPUT_LOCK_EXT" class="0">
 <segment>
 <pinref part="Q402" gate="G$1" pin="G"/>
-<wire x1="63.5" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="S402" gate="G$1" pin="P"/>
+<wire x1="63.5" y1="-7.62" x2="45.72" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="LED401" gate="G$1" pin="C"/>
-<wire x1="48.26" y1="-7.62" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="2.54" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="2.54" x2="48.26" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="48.26" y="-7.62"/>
 </segment>
 <segment>
 <pinref part="J400" gate="G$1" pin="3"/>
@@ -24201,8 +24148,15 @@ and !G + Q200 to the other Arduino GND pin (Arduino detection)</text>
 <net name="LED401_VCC" class="0">
 <segment>
 <pinref part="LED401" gate="G$1" pin="A"/>
-<wire x1="38.1" y1="2.54" x2="35.56" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-7.62" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="R404" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="!INPUT" class="0">
+<segment>
+<pinref part="J400" gate="G$1" pin="4"/>
+<wire x1="40.64" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<label x="43.18" y="48.006" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
