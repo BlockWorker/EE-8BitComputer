@@ -306,6 +306,17 @@
 <text x="-0.508" y="-7.62" size="1.524" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="2.032" y="-7.62" size="1.524" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
+<package name="NK236*H">
+<pad name="C" x="0" y="0" drill="1" shape="long"/>
+<pad name="1" x="0" y="2.54" drill="1" shape="long"/>
+<pad name="2" x="0" y="-2.54" drill="1" shape="long"/>
+<text x="3.556" y="-3.937" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.334" y="-3.937" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="0.7" y1="5" x2="0.7" y2="-5" width="0.127" layer="51"/>
+<wire x1="0.7" y1="-5" x2="7.2" y2="-5" width="0.127" layer="21"/>
+<wire x1="7.2" y1="-5" x2="7.2" y2="5" width="0.127" layer="51"/>
+<wire x1="7.2" y1="5" x2="0.7" y2="5" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="U">
@@ -875,6 +886,23 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CAY16-102J8LF
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NK236*H">
+<gates>
+<gate name="G$1" symbol="U" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NK236*H">
+<connects>
+<connect gate="G$1" pin="O" pad="1"/>
+<connect gate="G$1" pin="P" pad="C"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
